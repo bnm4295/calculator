@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel ="stylesheet" type="text/css" href="calculator.css">
+</head>
+
+<body>
+<!-- contains the background -->
+<div id="container">
+    <header>
+    </header>
+
+  <div id="page-content">
+
+    <section class="main">
+      <h1>Grade Calculator</h1>
+
+      <div class="form-background">
+        <p1><b>Activities</b></p1>
+        <p>Give grades to the numeric activities:<p>
+        <div class="section-layout">
+           <table>
+               <!-- table starts here-->
+               <tr>
+                 <th>Name</th>
+                 <th>Short Name</th>
+                 <th>Percentage</th>
+                 <th>Grade</th>
+               </tr>
+
+               <tr>
+               <form><!--form starts here-->
+                 <td>Activity1</td>
+                 <td>A1</td>
+                 <td><input type = "text" id="percentage1" class="textbox"></td>
+                 <td><input type = "text" id="numer1" class="textbox"> <slash>/</slash> <input type = "text" id="denom1" class="textbox"></td>
+               </tr>
+
+               <tr>
+                 <td>Activity2</td>
+                 <td>A2</td>
+                 <td><input type = "text" id="percentage2" class="textbox"></td>
+                 <td><input type = "text" id="numer2" class="textbox"> <slash>/</slash> <input type = "text" id="denom2" class="textbox"></td>
+               </tr>
+
+               <tr>
+                 <td>Activity3</td>
+                 <td>A3</td>
+                 <td><input type = "text" id= "percentage3" class="textbox"></td>
+                 <td><input type = "text" id= "numer3" class="textbox"> <slash>/</slash> <input type = "text" id="denom3" class="textbox"></td>
+               </tr>
+
+               <tr>
+                 <td>Activity4</td>
+                 <td>A4</td>
+                 <td><input type = "text" id= "percentage4" class="textbox"></td>
+                 <td><input type = "text" id="numer4" class="textbox"> <slash>/</slash> <input type = "text" id= "denom4" class="textbox"></td>
+               </form><!--form ends here-->
+               </tr>
+             <!-- table finishes here-->
+          </table>
+        </div>
+        <p2><b>Result</b></p2>
+
+        <!-- javascript stuff-->
+        <p id="weighted">WEIGHTED</p>
+        <p id="mean">MEAN</p>
+        <p id="letterGrade">GRADE</p>
+        <p3 id="result"></p>
+        <!-- javascript stuff-->
+      </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+    </footer>
+
+  </div> <!-- page content ends -->
+</div> <!-- container ends -->
+
+<!-- link javascript source-->
+<script src="calculator.js" type="text/javascript"></script>
+
+</body>
+
+
+
+</html>
