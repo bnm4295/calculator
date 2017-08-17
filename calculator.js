@@ -120,31 +120,31 @@ function calcGrade(){
   if(lettercheck > 0.96){
     document.getElementById("result").innerHTML = "A+";
   }
-  else if(lettercheck > 0.93 && lettercheck <= 0.96){
+  else if(lettercheck > 0.93){
     document.getElementById("result").innerHTML = "A";
   }
-  else if(lettercheck > 0.89 && lettercheck <= 0.93){
+  else if(lettercheck > 0.89){
     document.getElementById("result").innerHTML = "A-";
   }
-  else if(lettercheck > 0.86 && lettercheck <= 0.89){
+  else if(lettercheck > 0.86){
     document.getElementById("result").innerHTML = "B+";
   }
-  else if(lettercheck > 0.83 && lettercheck <= 0.86){
+  else if(lettercheck > 0.83){
     document.getElementById("result").innerHTML = "B";
   }
-  else if(lettercheck > 0.79 && lettercheck <= 0.83){
+  else if(lettercheck > 0.79){
     document.getElementById("result").innerHTML = "B-";
   }
-  else if(lettercheck > 0.76 && lettercheck <= 0.79){
+  else if(lettercheck > 0.76){
     document.getElementById("result").innerHTML = "C+";
   }
-  else if(lettercheck > 0.73 && lettercheck <= 0.76){
+  else if(lettercheck > 0.73){
     document.getElementById("result").innerHTML = "C";
   }
-  else if(lettercheck > 0.55 && lettercheck <= 0.73){
+  else if(lettercheck > 0.55){
     document.getElementById("result").innerHTML = "C-";
   }
-  else if(lettercheck >= 0.50 && lettercheck <= 0.55){
+  else if(lettercheck >= 0.50){
     document.getElementById("result").innerHTML = "D";
   }
   else if(lettercheck < 0.50){
